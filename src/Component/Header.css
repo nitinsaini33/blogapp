@@ -1,0 +1,98 @@
+
+
+.header{
+    top: 0px;
+width: 100%;
+height: 79px;
+background-color: #eee;
+position: relative;
+box-shadow: 0 0  7px rgba(0, 0, 0, 0.2);
+  
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 0.822);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+}
+.header-main h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    
+    
+}
+
+.header-nav ul{
+    display: flex;
+    margin-right: 40px;
+    gap: 70px;
+    align-items: center;
+   
+    
+}
+
+
+.header-nav ul li{
+    list-style: none;
+    font-size: 22px;
+   
+}
+.input-icon{
+    border-radius: 10px;
+    padding: 10px;
+   
+    font-size: 18px;
+   width: 320px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.input-icon input{
+    border: none;
+    background-color:transparent ;
+    outline: none;
+    height: 20px;
+    width: 280px;
+}
+
+
+    
+   
+    
+
+
+
+.header-nav .icon{
+    font-size: 30px;
+    
+   
+    
+
+} 
+.icon-btn span{
+    cursor: pointer;
+} 
+
+.header-nav ul li a{
+    text-decoration: none;
+}
+.header-nav ul li button{
+    padding: 15px;
+    
+    width: 90px;
+    
+    border: none;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.658);
+    box-shadow: 2px 0px 0px 5px;
+    
+    
+
+}
+

@@ -1,0 +1,82 @@
+
+.singn{
+    height: 500px;
+    margin-left: 40%;
+     margin-top: 80px;
+    display: flex;
+    
+    width: 350px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 6px;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+
+
+
+.singn-up{
+    display: flex;
+    margin-left: 30px;
+    
+ justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 300px;
+    
+    gap: 15px;
+
+}
+.singn-up input{
+    
+    padding: 8px;
+    border: none;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 6px;
+    color: rgba(0, 0, 0, 0.616);
+
+}
+.singn-up label{
+    font-size: 20px;
+    
+    letter-spacing: 1px;
+    color: rgb(167, 151, 151);
+    box-shadow: 0px 0px 1px;
+}
+.singn-up button{
+    margin-top: 25px;
+    padding: 15px;
+    width: 90px;
+    border-radius: 10px;
+    border-radius: none;
+    color: rgba(0, 0, 0, 0.829);
+    box-shadow: 2px 1px 2px 4px;
+    background-color: #eeee;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.icon-btn{
+    position: relative;
+}
+.icon-btn span {
+    position: absolute;
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+ display:flex;
+
+ align-items: center;
+ justify-content: center;
+  top:-18px;
+  right: -10px;
+ 
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+
+}
